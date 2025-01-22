@@ -1,6 +1,4 @@
-Unpacking Data Selection Techniques in NumPy Arrays
-Lesson Overview and Plan
-Hello, Data Explorer! Today's lesson will focus on "selecting data" in NumPy arrays—our goal is to master integer and Boolean indexing and slicing. So, let's jump in!
+# Unpacking Data Selection Techniques in NumPy Arrays
 
 Understanding Indexing in 1D Arrays
 In this section, we'll discuss "Indexing". It's akin to item numbering in lists, and Python implements it with a zero-based index system. Let's see this principle in action.
