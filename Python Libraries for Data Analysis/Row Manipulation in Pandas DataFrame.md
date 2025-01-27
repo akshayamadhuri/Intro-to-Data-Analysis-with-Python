@@ -1,13 +1,14 @@
-Mastering Row Manipulation in Pandas DataFrame
-Introduction to Adding and Removing Rows in a Pandas DataFrame
-During today's session, we will delve into how to add and remove rows from a DataFrame in Pandas. These are vital tools for data manipulation, whether adding new entries or eliminating unnecessary data.
+# Mastering Row Manipulation in Pandas DataFrame
 
-Consider it analogous to adding a name to your contacts or deleting an item from your shopping list. We will be carrying out similar operations but with a DataFrame. Let's begin:
+## Introduction to Adding and Removing Rows in a Pandas DataFrame
 
-Python
-Copy to clipboard
+```Python
+
 import pandas as pd
-Quick Recap on Rows in a DataFrame
+```
+
+## Quick Recap on Rows in a DataFrame
+
 A DataFrame, a central data structure in Pandas, is a tool for storing data in table form. Each row contains values correlated to an individual entry in our data. For instance, each row of a grocery list might represent a unique grocery item.
 
 Each row features an index, a unique identifier. Now, let's create a DataFrame:
