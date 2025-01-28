@@ -13,8 +13,8 @@ A DataFrame, a central data structure in Pandas, is a tool for storing data in t
 
 Each row features an index, a unique identifier. Now, let's create a DataFrame:
 
-Python
-Copy to clipboard
+```Python
+
 import pandas as pd
 
 data = {
@@ -32,7 +32,9 @@ print(grocery_df)
 2      Bananas          2.75
 3       Grapes          5.00
 '''
-Adding a Row to a DataFrame
+```
+
+## Adding a Row to a DataFrame
 Multiple scenarios might necessitate adding new entries to our DataFrame. Let's explore how to accomplish that:
 
 In modern pandas, we use pd.concat() function to incorporate new rows. If you forgot to add 'Pears' to your grocery list, here’s how to do it:
