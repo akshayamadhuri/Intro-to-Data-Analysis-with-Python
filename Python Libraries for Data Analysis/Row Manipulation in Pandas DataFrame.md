@@ -35,12 +35,13 @@ print(grocery_df)
 ```
 
 ## Adding a Row to a DataFrame
+
 Multiple scenarios might necessitate adding new entries to our DataFrame. Let's explore how to accomplish that:
 
 In modern pandas, we use pd.concat() function to incorporate new rows. If you forgot to add 'Pears' to your grocery list, here’s how to do it:
 
-Python
-Copy to clipboard
+```Python
+
 new_row = pd.DataFrame({'Grocery Item': ['Pears'], 'Price per kg': [4.00]})
 
 grocery_df = pd.concat([grocery_df, new_row]).reset_index(drop=True)
@@ -54,6 +55,7 @@ print(grocery_df)
 3       Grapes          5.00
 4        Pears          4.00
 '''
+```
 Setting reset_index(drop=True) resets the index to default integers. Without this step, pandas will save the original dataframes' indices, resulting in both 'Pears' and 'Apples' sharing the same index 0.
 
 Adding Multiple Rows to a DataFrame
