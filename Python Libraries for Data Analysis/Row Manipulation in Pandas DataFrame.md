@@ -58,11 +58,11 @@ print(grocery_df)
 ```
 Setting reset_index(drop=True) resets the index to default integers. Without this step, pandas will save the original dataframes' indices, resulting in both 'Pears' and 'Apples' sharing the same index 0.
 
-Adding Multiple Rows to a DataFrame
+## Adding Multiple Rows to a DataFrame
 For multiple rows, you can concatenate them by creating a DataFrame and adding it to the original one:
 
-Python
-Copy to clipboard
+```Python
+
 new_rows = pd.DataFrame({
     'Grocery Item': ['Avocados', 'Blueberries'],
     'Price per kg': [2.5, 10.0]
@@ -80,6 +80,7 @@ print(grocery_df)
 4     Avocados          2.50
 5  Blueberries         10.00
 '''
+```
 You may wonder why we don't include these rows in the original dataframe. Well, it is only sometimes possible. Imagine we have two separate grocery lists coming from different sources, for instance, from separate files. In this case, the only way to combine them into one is to use pd.concat()
 
 Removing Rows from a DataFrame
