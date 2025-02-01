@@ -1,4 +1,5 @@
-Navigating DataFrames with Index Column and Data Locating in Pandas
+## Navigating DataFrames with Index Column and Data Locating in Pandas
+
 Introduction and Lesson Overviews
 Welcome, future data analyzers! Today, we're tackling Index Columns and Locating Elements in a Pandas DataFrame. We'll learn how to handle index columns, locate specific data, and strengthen our understanding of DataFrames. Ready, set, code!
 
