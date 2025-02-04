@@ -3,11 +3,11 @@
 ## Introduction and Lesson Overviews
 Welcome, future data analyzers! Today, we're tackling Index Columns and Locating Elements in a Pandas DataFrame. We'll learn how to handle index columns, locate specific data, and strengthen our understanding of DataFrames. Ready, set, code!
 
-Understanding the Index Column in a Pandas DataFrame
+## Understanding the Index Column in a Pandas DataFrame
 In a Pandas DataFrame, an index is assigned to each row, much like the numbers on books in a library. When a DataFrame is created, Pandas establishes a default index. Let's refer to an example:
 
-Python
-Copy to clipboard
+```Python
+
 import pandas as pd
 
 data = {
