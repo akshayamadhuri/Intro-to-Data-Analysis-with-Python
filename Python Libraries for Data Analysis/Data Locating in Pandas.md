@@ -30,12 +30,13 @@ print(df)
 The numbers on the left are the default index.
 
 ## Setting and Modifying the Index Column
+
 Occasionally, we might need to establish a custom index. The Pandas' set_index() function allows us to set a custom index. To reset the index to its default state, we use reset_index().
 
 To better understand these functions, let's consider an example in which we create an index using unique IDs:
 
-Python
-Copy to clipboard
+```Python
+
 df['ID'] = [101, 102, 103, 104]    # Adding unique IDs
 df.set_index('ID', inplace=True)   # Setting 'ID' as index
 
@@ -48,10 +49,11 @@ ID
 103  Peter   35    Berlin
 104  Linda   32    London
 """
+```
 In this example, ID column is displayed as an index. Let's reset the index to return to the original state:
 
-Python
-Copy to clipboard
+```Python
+
 df.reset_index(inplace=True)       # Resetting index
 
 print(df)
@@ -62,6 +64,7 @@ print(df)
 2  103  Peter   35    Berlin
 3  104  Linda   32    London
 """
+```
 By setting inplace parameter to True, we ask pandas to reset the index in the original df dataframe. Otherwise, pandas will create a copy of the data frame with a reset index, leaving the original df untouched.
 
 Locating Elements in a DataFrame
