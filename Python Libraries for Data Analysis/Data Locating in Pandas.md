@@ -26,9 +26,10 @@ print(df)
 2  Peter   35    Berlin
 3  Linda   32    London
 """
+```
 The numbers on the left are the default index.
 
-Setting and Modifying the Index Column
+## Setting and Modifying the Index Column
 Occasionally, we might need to establish a custom index. The Pandas' set_index() function allows us to set a custom index. To reset the index to its default state, we use reset_index().
 
 To better understand these functions, let's consider an example in which we create an index using unique IDs:
