@@ -70,8 +70,8 @@ By setting inplace parameter to True, we ask pandas to reset the index in the or
 Locating Elements in a DataFrame
 Let's consider a dataframe with a custom index. If you want to select a specific row based on its index value (for example, ID = 102), you can do this:
 
-Python
-Copy to clipboard
+```Python
+
 import pandas as pd
 
 data = {
@@ -91,6 +91,7 @@ Age        24
 City    Paris
 Name: 102, dtype: object
 '''
+```
 Selecting Multiple Rows with `loc`
 For multiple rows, simply use list of ids:
 
