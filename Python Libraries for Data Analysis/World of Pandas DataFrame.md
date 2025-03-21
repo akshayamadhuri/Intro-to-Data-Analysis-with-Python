@@ -3,7 +3,7 @@
 
 ## Introduction to the Pandas Library
 
-The pandas library is Python's solution for tabular data operations, packing more punch for data analysis than NumPy, which is skewed towards numerical computations. Pandas houses two fundamental data structures: the Series (1D) and the DataFrame (2D). Often, the DataFrame is the go-to choice. Let's start by importing pandas:
+The pandas library is Python's solution for tabular data operations, packing more punch for data analysis than NumPy, which is skewed towards numerical computations. Pandas houses two fundamental data structures: the Series (1D) and  DataFrame (2D). Often, the DataFrame is the go-to choice. Let's start by importing pandas:
 
 ```Python
 
